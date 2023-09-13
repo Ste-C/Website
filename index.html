@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
+    <title>S Cox</title>
     <link href="styles/style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet" />
   </head>
   <body>
-    <h1>Stephen Cox</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth." width="256" height="256">
+    <div class="about">
+      <div class="info">
+        <h1 id="name">Stephen Cox</h1>
+        <p id="location">Minneapolis, MN</p>
+        <p id="statement">I am a software developer who enjoys puzzles, games, and coding.</p>
+        <p id="about">I recently earned a Bachelor of Science degree in Computer Science from the University of Minnesota and am currently seeking new opportunities, including internships, entry-level positions, or new projects. 
+          My interests include graphics, libraries, and application development, but I'm always learning something new.</p>
+        <p id="links">
+          <button onclick="window.location.href='./files/Resume.pdf'">Resume</button>
+          <button onclick="window.location.href='https://www.linkedin.com/in/stephen-w-c/'">LinkedIn</button>
+          <button onclick="window.location.href='https://github.com/Ste-C'">GitHub</button>
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./images/firefox-icon.png" alt="Image placeholder" height="auto" width="256px">
+      </div>
+    </div>
 
-    <p>Computer Science graduate of the University of Minnesota.</p>
+    <!-- Resume, LinkedIn, GitHub -->
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
+    <div class="experience">
+      <h2>Professional Experience</h2>
+    </div>
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. 
-      We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+    <div class="education">
+      <h2>Education</h2>
+    </div>
 
-    <p>Read the <a href="https://ste-c.github.io/secondary.html">Mozilla Manifesto</a> 
-      to learn even more about the values and principles that guide the pursuit of our mission.</p>
-    
-    <button>Change user</button>
-    <script src="scripts/main.js"></script>
+    <div class="projects">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <h3>Primary Languages</h3>
+      <ul>
+        <li>C++</li>
+        <li>C#</li>
+      </ul>
+      <h3>Secondary Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3>Frameworks</h3>
+      <ul>
+        <li>.NET Core</li>
+        <li>Unity Game Engine</li>
+      </ul>
+      <h3>Tools and Techniques</h3>
+      <ul>
+        <li>GitHub</li>
+        <li>Agile and Waterfall Methodologies</li>
+        <li>Scrum</li>
+        <li>Object Oriented Programming</li>
+        <li>Design Patterns</li>
+        <li>Software Development Lifecycle (SDLC)</li>
+        <li>LaTeX</li>
+      </ul>
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Inventory Management</li>
+        <li>Customer Service</li>
+        <li>Technical Writing</li>
+      </ul>
+    </div>
+
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
