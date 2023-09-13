@@ -50,13 +50,25 @@ a {
 }
 
 .about .info {
-    text-align: justify;
+    text-align: left;
 }
 
 .about .info #links {
     display: flex;
     gap: 20px;
     margin: 0px;
+}
+
+.about .photo {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px){
+    .about{
+        flex-direction: column;
+    }
 }
 
 ul {
