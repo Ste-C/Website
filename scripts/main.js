@@ -1,13 +1,13 @@
-// const myImage = document.querySelector("img");
+const myImage = document.getElementById("pillar");
 
-// myImage.onclick = () => {
-//   const mySrc = myImage.getAttribute("src");
-//   if (mySrc === "images/firefox-icon.png") {
-//     myImage.setAttribute("src", "images/firefox-icon2.png");
-//   } else {
-//     myImage.setAttribute("src", "images/firefox-icon.png");
-//   }
-// };
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/cater1.png") {
+    myImage.setAttribute("src", "images/cater2.png");
+  } else {
+    myImage.setAttribute("src", "images/cater1.png");
+  }
+};
 
 // let myButton = document.querySelector("button");
 // let myHeading = document.querySelector("h1");
