@@ -54,6 +54,7 @@ li {
     gap: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .about .info #links {
@@ -69,6 +70,9 @@ li {
 }
 
 .area {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -87,6 +91,7 @@ li {
     }
 
     .area {
+        /* flex-direction: column; */
         padding-left: 10%;
         padding-right: 10%;
         text-align: left;
