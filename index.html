@@ -12,13 +12,13 @@
         <h1 id="name">Stephen Cox</h1>
         <p id="location">Minneapolis, MN</p>
         <p id="statement">I am a software developer who enjoys puzzles, games, and coding.</p>
-        <p id="about">I recently earned a Bachelor of Science degree in Computer Science from the University of Minnesota and am currently seeking new opportunities, including internships, entry-level positions, or new projects. 
-          My interests include graphics, libraries, and application development, but I'm always learning something new.</p>
         <p id="links">
           <button onclick="window.open('./files/Resume.pdf', '_blank')">Resume</button>
           <button onclick="window.open('https://www.linkedin.com/in/stephen-w-c/', '_blank')">LinkedIn</button>
           <button onclick="window.open('https://github.com/Ste-C', '_blank')">GitHub</button>
         </p>
+        <p id="about">I recently earned a Bachelor of Science degree in Computer Science from the University of Minnesota and am currently seeking new opportunities, including internships, entry-level positions, or new projects. 
+          My interests include graphics, libraries, and application development, but I'm always learning something new.</p>
       </div>
       <div class="photo">
         <img src="./images/firefox-icon.png" alt="Image placeholder">
@@ -27,25 +27,30 @@
 
     <!-- Resume, LinkedIn, GitHub -->
 
-    <div class="experience">
-      <h2>Professional Experience</h2>
-    </div>
-
-    <div class="education">
+    <div class="area">
       <h2>Education</h2>
+      <div class = "item">
+        <h4 class="title">Bachelor of Science in Computer Science (2023)</h4>
+        <p class="location"><em>University of Minnesota - Minneapolis, MN</em></p>
+        <p class="secondary">GPA: 3.853</p>
+      </div>
+
+      <div class = "item">
+        <h4 class="title">Associate of Arts (2021)</h4>
+        <p class="location"><em>Inver Hills Community College - Inver Grove Heights, MN</em></p>
+        <p class="secondary">GPA: 4.0</p>
+      </div>
+
     </div>
 
-    <div class="projects">
-      <h2>Projects</h2>
-    </div>
-
-    <div class="skills">
+    <div class="area">
       <h2>Skills</h2>
       <h3>Primary Languages</h3>
       <ul>
         <li>C++</li>
         <li>C#</li>
       </ul>
+
       <h3>Secondary Languages</h3>
       <ul>
         <li>C</li>
@@ -54,11 +59,13 @@
         <li>HTML</li>
         <li>JavaScript</li>
       </ul>
+
       <h3>Frameworks</h3>
       <ul>
         <li>.NET Core</li>
         <li>Unity Game Engine</li>
       </ul>
+
       <h3>Tools and Techniques</h3>
       <ul>
         <li>GitHub</li>
@@ -69,13 +76,88 @@
         <li>Software Development Lifecycle (SDLC)</li>
         <li>LaTeX</li>
       </ul>
+
       <h3>Soft Skills</h3>
       <ul>
-        <li>Inventory Management</li>
         <li>Customer Service</li>
+        <li>Inventory Management</li>
         <li>Technical Writing</li>
       </ul>
     </div>
+
+    <div class="area">
+      <h2>Projects</h2>
+      <h3>Raytracer</h3>
+      <ul>
+        <li>Created a backwards-raytracing program using C++ that creates images from .obj files containing graphical notation about a 3D scene.</li>
+        <li>Implemented spheres and triangles by adding ray-intersection functionality and object data, including colors and 
+          textures.</li>
+        <li>Applied the Phong Illumination model by adding lighting and shading along with reflection, refraction, and 
+          transparency capabilities for more lifelike images.</li>
+      </ul>
+
+      <h3>Othello Artificial Intelligence</h3>
+      <ul>
+        <li>Created a program to play the Othello board game using C++, featuring an AI opponent utilizing minimax algorithms, 
+          state evaluations, and alpha-beta pruning for reduced space complexity.</li>
+        <li>Delivered a report on the AI's proficiency at varying strength levels, written using LaTeX.</li>
+        <li>Refactored the program into C# and .NET Core to allow it to run on any major operating system.</li>
+      </ul>
+
+      <h3>Parsons Problems Application</h3>
+      <ul>
+        <li>Designed an application for creating computer programming exam questions (Parsons Problems) with a small team.</li>
+        <li>Composed the Software Requirements Specification (SRS) and Software Design Document (SDD) documents,
+          detailing the system's features, use cases, class descriptions with UML, and traceability of system requirements.</li>
+        <li>Developed a prototype application using C++ and performed unit tests to generate an execution report and an 
+          end-to-end scenario document.</li>
+        <li> Employed agile methodologies as a scrum master to coordinate and manage the team's development progress</li>
+      </ul>
+
+      <h3>Small Networking Projects</h3>
+      <ul>
+        <li>Set up a basic client-server system to transfer data using Python socket programming.</li>
+        <li>Tested connection speeds and bandwidths of an artificial network using MiniNet and a virtual machine.</li>
+      </ul>
+
+      <h3>Unfinished RPG Game</h3>
+      <ul>
+        <li>Used the Unity Engine and C# scripting to create the prototype for an RPG video game.</li>
+        <li>Created pixelated art assets for a resusable tileset to quickly create 2D game scenes.</li>
+        <li>Added a turn-based battle system utilizing an initiative mechanic, health and damage, and both single- and multi-target abilities.</li>
+        <li>Designed puzzles for the player to solve in the game world.</li>
+      </ul>
+
+      <h3>This Website</h3>
+      <ul>
+        <li>Created a personal website hosted on GitHub using HTML and CSS.</li>
+      </ul>
+    </div>
+
+    <div class="area">
+      <h2>Professional Experience</h2>
+      <div class = "item">
+        <p class="title"><strong>Cook (Feb 2021 - Present)</strong></p>
+        <p class="location"><em>JL Beers - Burnsville, MN</em></p>
+        <ul>
+          <li>Cooked and served orders to restaurant guests, ensuring prompt completion and accuracy.</li>
+          <li>Maintained clean and organized workspaces to allow for efficient and safe operations.</li>
+          <li>Trained peers on common procedures for food preparation and cooking.</li>
+        </ul>
+      </div>
+
+      <div class = "item">
+        <p class="title"><strong>Receiver, Front-End Supervisor, Sales Associate, Merchandiser (Feb 2016 - July 2020)</strong></p>
+        <p class="location"><em>Total Wine & More - Burnsville, MN</em></p>
+        <ul>
+          <li> Managed inventory and deliveries by coordinating with sales representatives and merchandising personnel.</li>
+          <li>Supervised and supported a team of cashiers by delegating and cooperating on critical tasks.</li>
+          <li>Provided customers with product selections and knowledge through demonstration and education.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom"></div>
 
     <script src="./scripts/main.js"></script>
   </body>
