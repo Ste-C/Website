@@ -2,10 +2,10 @@ const myImage = document.getElementById("pillar");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/cater1.png") {
-    myImage.setAttribute("src", "images/cater2.png");
+  if (mySrc === "./images/cater1.png") {
+    myImage.setAttribute("src", "./images/cater2.png");
   } else {
-    myImage.setAttribute("src", "images/cater1.png");
+    myImage.setAttribute("src", "./images/cater1.png");
   }
 };
 
