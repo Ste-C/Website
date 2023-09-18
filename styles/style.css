@@ -92,7 +92,7 @@ li {
     text-align: center;
 }
 
-.imageblock {
+.area .category .imageblock {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -112,7 +112,7 @@ li {
         text-align: left;
     }
 
-    .imageblock {
+    .area .category .imageblock {
         flex-direction: column;
     }
 }
