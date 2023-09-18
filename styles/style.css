@@ -99,6 +99,12 @@ li {
     gap: 15px;
 }
 
+.area .category .imageblock img {
+    width: 80%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 
 @media (max-width: 800px){
     .about{
