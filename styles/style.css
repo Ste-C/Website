@@ -90,6 +90,7 @@ li {
     height: auto;
     justify-content: center;
     text-align: center;
+    max-width: fit-content;
 }
 
 .area .category .imageblock {
@@ -100,9 +101,9 @@ li {
 }
 
 .area .category .imageblock img {
+    display: block;
     width: 80%;
-    max-width: 100%;
-    object-fit: contain;
+    max-width: fit-content;
 }
 
 
